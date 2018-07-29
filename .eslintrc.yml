@@ -1,0 +1,40 @@
+extends: 'eslint:recommended'
+parserOptions:
+  sourceType: module
+env:
+  es6: true
+rules:
+  indent:
+    - error
+    - tab
+    - SwitchCase: 1
+  linebreak-style:
+    - error
+    - unix
+  quotes:
+    - error
+    - single
+  semi:
+    - error
+    - always
+  no-var:
+    - error
+  prefer-const:
+    - error
+  comma-dangle:
+    - error
+    - always-multiline
+  one-var:
+    - error
+    - never
+  arrow-parens:
+    - error
+    - always
+  curly:
+    - error
+    - multi-line
+  eqeqeq:
+    - error
+  spaced-comment:
+    - error
+    - always
