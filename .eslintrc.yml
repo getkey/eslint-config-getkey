@@ -1,6 +1,8 @@
 extends: 'eslint:recommended'
 parserOptions:
   sourceType: module
+  ecmaFeatures:
+    impliedStrict: true
 env:
   es6: true
 rules:
@@ -39,4 +41,8 @@ rules:
     - error
     - always
   no-trailing-spaces:
+    - error
+  no-console:
+    - error
+  no-shadow:
     - error
