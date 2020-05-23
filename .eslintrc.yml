@@ -46,3 +46,7 @@ rules:
     - error
   no-shadow:
     - error
+  react/prop-types:
+    - off # using Typescript so it's unnecessary
+  '@typescript-eslint/ban-ts-ignore':
+    - off
