@@ -48,5 +48,5 @@ rules:
     - error
   react/prop-types:
     - off # using Typescript so it's unnecessary
-  '@typescript-eslint/ban-ts-ignore':
+  '@typescript-eslint/ban-ts-comment':
     - off

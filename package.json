@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-getkey",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Yet another \"actual proper way\" to write JS.",
   "licence": "MPL-2.0",
   "repository": {
