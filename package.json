@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-getkey",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Yet another \"actual proper way\" to write JS.",
   "licence": "MPL-2.0",
   "repository": {
@@ -13,11 +13,11 @@
     "eslint": ">= 6.0.0"
   },
   "devDependencies": {
-    "@rollup/plugin-yaml": "^3.0.0",
-    "rollup": "^2.47.0"
+    "@rollup/plugin-yaml": "^3.1.0",
+    "rollup": "^2.59.0"
   },
   "scripts": {
     "build": "rollup -c",
-	"prepare": "npm run-script build"
+    "prepare": "npm run-script build"
   }
 }

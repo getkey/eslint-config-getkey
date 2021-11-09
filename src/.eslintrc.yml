@@ -46,6 +46,9 @@ rules:
     - error
   no-shadow:
     - error
+  object-curly-spacing:
+    - error
+    - always
   react/prop-types:
     - off # using Typescript so it's unnecessary
   '@typescript-eslint/ban-ts-comment':
